@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.App {
+  text-align: center;
+  background-color: #273c41;
+  color: #d6c5b6;
+  font-family: 'Inter';
+  font-weight: 300;
+}
+
+.App h1 {
+  font-weight: 300;
+  font-size: 70px;
+  margin-bottom: 10px;
+}
+
+.App p {
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.ArtistInfo {
+  margin-bottom: 4%;
+  text-align: left;
+  background-color: #d6c5b6;
+  color: #14252c;
+  margin-top: 4%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  width: 100%
+}
+
+.ArtistInfoText {
+  padding-left: 6px;
+}
+
+#artistPopularity {
+  width: 100%;
+  background-color: #a79e9c;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#popularityBar {
+  height: 30px;
+  background-color: #82401d;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.artistPic {
+  border-radius: 25px;
+}
+
+.AlbumGrid {
+  background-color: #273c41;
+}
+
+.App Button {
+  background-color: #82401d;
+  border: none;
+  color: #e6cab3;
+}
+
+.App Button:hover {
+  background-color: #542912;
+}
+
+.App Button:focus {
+  border: none !important;
+}
+
+.albumTitle {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.spotifyLink {
+  color: #e3985b;
+  text-decoration: none;
+}
+
+.spotifyLink:hover {
+  color: #994b22;
+  text-decoration: none;
+}
